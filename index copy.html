@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO IAS</title>
+</head>
+<body>
+    <main>
+        <H2>CREAR NUEVO USUARIO</H2>
+
+    <FORm action="https://actualidad.rt.com/programas/documentales" method="POST">
+
+            
+        <label for="NOMBRE"> Nombres </label><BR>
+            <input type="TEXT"  name="NOMBRE " id="NOMBRE" placeholder="Nombres">
+
+    </BR>
+        <BR>
+            <label for="APELLIDO"> Apellidos </label><BR>
+                <input type="TEXT"  name="APELLIDOS " id="APELLIDOS" placeholder="Apellidos">
+
+        </BR>
+    
+    <BR>
+        <label for="EMAIL"> Email </label><BR>
+            <input type="email"  name="EMAIL " id="EMAIL" placeholder="NOMBRE@GMAIL.COM">
+
+    </BR>
+
+    <BR>
+        <label for="PASSWORD"> Password </label><BR>
+            <input type="PASSSWORD"  name="PASSWORD" id="PASSWORD" placeholder="Contraseña">
+
+    </BR>
+    <BR>
+        <label for="PASSWORD"> Repetir password </label><BR>
+            <input type="PASSSWORD"  name="PASSWORD" id="PASSWORD1" placeholder="Repite contraseña">
+
+    </BR>
+    <BR>
+        <label for="TELEFONO"> # Celular </label><BR>
+            <input type="tel"  name="TELEFONO" id="TELEFONO" placeholder="123456789" maxlength="9" minlength="7">
+
+    </BR>
+    <BR>
+        <label for="FECHA">Fecha de nacimiento </label><BR>
+            <input type="DATE"  name="FECHA" id="FECHA" placeholder="dd/mm/aa">
+    </BR>
+     <h3>Sexo</h3>
+        <input type="radio" name="sexo" id="masculino" value="masculino"> 
+        <label for="masculino">masculino</label> <br>
+        <input type="radio" name="sexo" id="femenino" value="femenino">
+        <label for="femenino">femenino</label><br>
+
+     <h2>Foto de usuario</h2>  
+     
+        <input type="file"  name="fotoperfil" id="foto de perfil" accept="image/*"><br>
+
+       <h2>Selecciona tu universidad</h2> 
+       <SELEct name="UNIVERSIDADES" id="UNIVERSIDADES">
+           <OPTIOn value="VILLAREAL" selected>UNFV</OPTIOn>
+           <OPTIOn value="CATOLICA" >UPC</OPTIOn>
+           <OPTIOn value="VALLEJO">UCV</OPTIOn>
+           <OPTIOn value="UNIVERSIDAD DE INGENIERIA">UNI</OPTIOn>
+       </SELEct><BR></BR>    
+
+  <H3>CUADRO DE DESCRIPCION</H3>
+<TExtarea name=" DESCRIPCION " id="DESCRIPCION" cols="30" rows="20">
+QUE ESPERAS DEL GRUPO DE INVESTIGACION/DEJANOS TU COMENTARIO:
+</TExtarea><BR></BR>
+
+<INPUt type="submit" value="SUBMIT">
+</INPUt>       
+  </FORm>
+    </main>
+    
+</body>
+</html>
